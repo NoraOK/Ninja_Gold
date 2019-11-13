@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    text-align: center;
+    padding-top: 20px;
+}
+.farm, .cave, .house, .casino{
+    display: inline-block;
+    margin: 10px;
+    width: 225px;
+}
+.counter{
+    color: #FFC108;
+}
+
+.activity{
+    overflow: scroll;
+    font-size: xx-small;
+    height: 200px;
+    border: 1px black solid;
+    width: 30%;
+}
+.acts{
+    font-size: smaller;
+    color: red;
+}
+.bar, .activity{
+    display: inline-block;
+}
+.earns{
+    font-size: smaller;
+}
+.btns-primary{
+    width: 75px;
+}
+h4, h1, .acts{
+    font-family: 'Rock Salt', cursive;
+    color: black;
+
+}
+.header h1, .header p{
+    display: inline-block
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header h1{
+    margin-right: 40px;
+}
+.header p{
+    width: 30%
+}
+.activity{
+    font-size:large
+}
